@@ -2,7 +2,7 @@
 
 This is a project developed by Tim Chen at MongoDB, Inc. as part of their Teacher Fellowship Program.  It uses the Express, React, and Node.
 
-The application aims to create an educational tool for anyone looking to explore 
+The application aims to create an educational tool for anyone looking to explore the fundamentals of probability by simulating various dice rolls.  Through this app, users can see the effects of the law of large and small numbers, and the distribution curves of multiple dice being rolled.
 
 ## Demo
 
