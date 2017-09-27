@@ -1,0 +1,106 @@
+body
+    padding 20px !important
+
+header h1
+    text-align center
+// p
+//     margin 0
+
+.highlight
+    background yellow !important
+    transition all 150ms
+
+.hidden
+    display none
+
+.center
+    text-align center
+    display inline-block
+
+#main-container
+    display flex
+    justify-content space-between
+    padding 10px
+    max-width 1400px
+    margin 0 auto
+
+#roll-components
+    width 49%
+    form
+        display flex
+        align-items flex-end
+        justify-content space-between
+        height 60px
+        #inputs
+            display flex
+            justify-content space-between
+            div:first-of-type
+                padding-right 30px
+            div:last-of-type
+                padding 0 30px
+            .input-container div
+                padding 0
+        button
+            width 100px
+            height 50px
+    #result-table
+        .table-text
+            width: 5%
+        .bar div
+            border 1px solid black
+            height 10px
+            background skyblue
+            transition all 400ms
+            width 0px
+
+#step-components
+    width 49%
+    
+    #step-heading
+        display flex
+        height 60px
+        align-items flex-end
+        p
+            flex 1
+            button
+                width 100px
+                height 50px
+                position relative
+                i       
+                    position absolute
+                    top 2px
+                    right -7px
+    
+    #variable-table
+        margin-top 14px
+    
+    #step-controls
+        text-align center
+        #step-buttons
+            display flex
+            align-items flex-start
+            justify-content center
+            button
+                width 130px
+                height 55px
+                line-height 18px
+
+    div h2 i
+        font-size 1.0em
+        
+    #pseudocode
+        margin-top 20px
+        p
+            display inline
+    
+    #pythoncode
+        margin-top 20px
+        div pre
+            margin 0 !important
+            code
+                padding 0 !important
+        .highlight pre code
+            background yellow !important
+
+.weird-adjustment p
+    margin-top 7px
